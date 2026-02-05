@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://c3rvoefn0juyd"]
+
+[ext_resource type="Script" uid="uid://bjc63xt7x3geg" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://bxfusood8uw31" path="res://assets/sprites/Axolotl walking sprite.png" id="2_g2els"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1jxqw"]
+radius = 5.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
+atlas = ExtResource("2_g2els")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqkch"]
+atlas = ExtResource("2_g2els")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
+atlas = ExtResource("2_g2els")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
+atlas = ExtResource("2_g2els")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fjrip"]
+atlas = ExtResource("2_g2els")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2hs0m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhqgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqkch")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qlg0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuyoq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fjrip")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="player" type="CharacterBody2D" unique_id=226935587]
+z_index = 5
+script = ExtResource("1_g2els")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1303185741]
+position = Vector2(0, -14)
+shape = SubResource("CircleShape2D_1jxqw")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=189368189]
+position = Vector2(0, -5)
+shape = SubResource("CircleShape2D_1jxqw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=226656085]
+position = Vector2(0, -9)
+scale = Vector2(0.61275226, 0.61275226)
+sprite_frames = SubResource("SpriteFrames_2hs0m")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.7646852
