@@ -1,0 +1,49 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1770209491
+icon.svg::CompressedTexture2D::775839465123520370::1770201794::1770201837::1::::<><><>0<>0<>25c27a515f126517bf50f83d15c93a4e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+sprite_2d.tscn::PackedScene::6226874660087093079::1770202440::0::1::::<><><>0<>0<><>::uid://bivyery5e2wvs::::res://assets/sprites/pixilart-drawing (1).png
+::res://assets/::1770201795
+::res://assets/fonts/::1770201837
+PixelOperator8-Bold.ttf::FontFile::3823902773191173040::1770201794::1770201837::1::::<><><>0<>0<>cf2b68d663d69a98b0340bc372fe28c2<>res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata::
+PixelOperator8.ttf::FontFile::3163829212677600792::1770201794::1770201837::1::::<><><>0<>0<>43b199fde968476518bb209530376386<>res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata::
+::res://assets/music/::1770201837
+time_for_adventure.mp3::AudioStreamMP3::8581271183448859580::1770201794::1770201837::1::::<><><>0<>0<>47067f7e5d5d25e224ceb599113a1fcf<>res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str::
+::res://assets/sounds/::1770201838
+coin.wav::AudioStreamWAV::2497079703074792863::1770201794::1770201838::1::::<><><>0<>0<>245bedcc158904f18f77d46fae8b36a0<>res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample::
+explosion.wav::AudioStreamWAV::3537780761337639113::1770201795::1770201838::1::::<><><>0<>0<>d26ce0414d0a67b30be081bcfead1069<>res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample::
+hurt.wav::AudioStreamWAV::1891700023697957655::1770201795::1770201838::1::::<><><>0<>0<>80704db548c793e0d93d03b60524e874<>res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample::
+jump.wav::AudioStreamWAV::6843395152394795516::1770201795::1770201838::1::::<><><>0<>0<>aadff3e378016324a7a17b9ba3e271ed<>res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample::
+power_up.wav::AudioStreamWAV::3872452196822495803::1770201795::1770201838::1::::<><><>0<>0<>8873978ceea2ee031211c5e129cf6813<>res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample::
+tap.wav::AudioStreamWAV::3129137049882733579::1770201795::1770201838::1::::<><><>0<>0<>4e68539fcb1e59a21fb67f0367e5f7eb<>res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample::
+::res://assets/sprites/::1770209533
+Axolotl walking sprite.png::CompressedTexture2D::4012333217419143866::1770201795::1770201838::1::::<><><>0<>0<>ab0e3d33357f5c3ceb502569e902bfd8<>res://.godot/imported/Axolotl walking sprite.png-2b12c0993ed539cef702b6306cee3a28.ctex::
+basis tyle sheet-1.png.png::CompressedTexture2D::4256102877568608819::1770209533::1770209534::1::::<><><>0<>0<>7cdc84e34cbfa428c098603ac7726109<>res://.godot/imported/basis tyle sheet-1.png.png-a9591c0f692640db03631cd810578fd0.ctex::
+coin.png::CompressedTexture2D::8253615423356707023::1770201795::1770201838::1::::<><><>0<>0<>131947210fd2d2725321ac5641ebbc2c<>res://.godot/imported/coin.png-c8309bf0f8fb5f3a7d1e96a4eb3f02ce.ctex::
+Colour dropper blue pattern sprite.png::CompressedTexture2D::9063270088098572614::1770201795::1770201838::1::::<><><>0<>0<>1b97497b35c2ca3a0a9ac1d3f0fdd61b<>res://.godot/imported/Colour dropper blue pattern sprite.png-94975c35b7d5e7629fcc59c4c28160ea.ctex::
+Colour dropper green pattern sprite.png::CompressedTexture2D::521473403474944284::1770201795::1770201838::1::::<><><>0<>0<>ab08e605b03f5723c7e90d144c05df46<>res://.godot/imported/Colour dropper green pattern sprite.png-3cedacafc9b6e7aa693b73f4fbde6e16.ctex::
+Colour dropper orange pattern sprite.png::CompressedTexture2D::6209177559267452332::1770201795::1770201838::1::::<><><>0<>0<>8b37f5a743b04291d4f48bd9d7690f4a<>res://.godot/imported/Colour dropper orange pattern sprite.png-373e9d42fdf314f4ba0b9655e35fbac4.ctex::
+Colour dropper purple pattern sprite.png::CompressedTexture2D::5209380608861664713::1770201795::1770201838::1::::<><><>0<>0<>5cee805e7ca0ad98a615ffe51ea73135<>res://.godot/imported/Colour dropper purple pattern sprite.png-750f7ad6a8af86716439d62151e307d3.ctex::
+Colour dropper red animated.png::CompressedTexture2D::159579936432412149::1770201795::1770201838::1::::<><><>0<>0<>0f5e9ce8acb0a8be76908ae9bd374014<>res://.godot/imported/Colour dropper red animated.png-b03030e172b69fd0bd2901d0f398492b.ctex::
+Colour dropper red pattern animated.png::CompressedTexture2D::4641523474866152955::1770201795::1770201838::1::::<><><>0<>0<>a3650aff11af9ab8e6cc9c53e5c1825d<>res://.godot/imported/Colour dropper red pattern animated.png-8a1ed7f2f4c37a7cdad6465a5d6f82b1.ctex::
+Colour dropper yellow pattern sprite.png::CompressedTexture2D::7456955279149421342::1770201795::1770201838::1::::<><><>0<>0<>87d8ce114fef0c727bdff8cda621c8ff<>res://.godot/imported/Colour dropper yellow pattern sprite.png-f78ed3c0b7b90047838ed3a7cab2ea60.ctex::
+Colour hexagon sprite-1.png.png::CompressedTexture2D::376571220779889684::1770201795::1770201838::1::::<><><>0<>0<>697fe1b18bf0b171403f51c46b0edb98<>res://.godot/imported/Colour hexagon sprite-1.png.png-1fab05529fd2b31f0afc393e431dcebf.ctex::
+fruit.png::CompressedTexture2D::5452367147866518141::1770201795::1770201838::1::::<><><>0<>0<>f8751318636965a6ae508b3aa05253a2<>res://.godot/imported/fruit.png-3735163b668af10c2b35b52cba81b68a.ctex::
+knight.png::CompressedTexture2D::1481902094525107146::1770201795::1770201838::1::::<><><>0<>0<>f8f84f03cb91d1a846209afe98047250<>res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex::
+New Piskel-1.png (1).png::CompressedTexture2D::7366258284880631751::1770206388::1770206388::1::::<><><>0<>0<>6f7dda07ac4b5f482740207662fe3636<>res://.godot/imported/New Piskel-1.png (1).png-42d85e63603a1e183e7297b7c7422c47.ctex::
+pixilart-drawing (1).png::CompressedTexture2D::2992748647976384012::1770202359::1770202359::1::::<><><>0<>0<>28824337d41e801deceb5cd5cc301382<>res://.godot/imported/pixilart-drawing (1).png-03c1f6e87540bb2eae620e144a53556c.ctex::
+platforms.png::CompressedTexture2D::904711942369247858::1770201795::1770201837::1::::<><><>0<>0<>81434a46afd1f956bde756b3ccf96762<>res://.godot/imported/platforms.png-3869606db457611ed4193d705dc364e4.ctex::
+slime_green.png::CompressedTexture2D::622096313339675851::1770201795::1770201837::1::::<><><>0<>0<>0f755d3e0253dd3aa62ea3f61da16a74<>res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex::
+slime_purple.png::CompressedTexture2D::7186766038280754102::1770201795::1770201837::1::::<><><>0<>0<>0329508a62d4a102c3e2d360d338ee0d<>res://.godot/imported/slime_purple.png-26dc5ddef235ce6a400e78e0d532b050.ctex::
+world_tileset.png::CompressedTexture2D::5797326937431754263::1770201795::1770201838::1::::<><><>0<>0<>f76c34669d41c76e476187c849c452d5<>res://.godot/imported/world_tileset.png-61a32465f33c3d9d3bfecb75b6485009.ctex::
+::res://scenes/::1770209352
+game.tscn::PackedScene::5329748427077672262::1770209352::0::1::::<><><>0<>0<><>::uid://c3rvoefn0juyd::::res://scenes/player.tscn<>uid://coujeltr5tjp4::::res://assets/sprites/world_tileset.png<>uid://calu0etwa03ax::::res://scenes/platform.tscn<>uid://civwtnq5q2hb::::res://scenes/pickup blue.tscn<>uid://dh011uhpfmhfo::::res://scenes/kil_zone.tscn<>uid://b6wfi3aicwabp::::res://scenes/pickup green.tscn<>uid://cuylyltq0d2hv::::res://sprite_2d.tscn<>uid://dc7jgytrjxcp0::::res://assets/sprites/New Piskel-1.png (1).png
+kil_zone.tscn::PackedScene::7703819534819806372::1770201795::0::1::::<><><>0<>0<><>::uid://bg4hwc8w14rd::::res://scripts/kil_zone.gd
+pickup blue.tscn::PackedScene::158208072416373755::1770202018::0::1::::<><><>0<>0<><>::uid://bf2iqg57rc21::::res://scripts/coin.gd<>uid://d2eky7yvntafu::::res://assets/sprites/Colour dropper blue pattern sprite.png
+pickup green.tscn::PackedScene::4608010489397316353::1770202034::0::1::::<><><>0<>0<><>::uid://juqgjq7gcjs5::::res://scripts/coin_2.tscn.gd<>uid://houuc6rh171i::::res://assets/sprites/Colour dropper green pattern sprite.png
+platform.tscn::PackedScene::4796808747829090127::1770201795::0::1::::<><><>0<>0<><>::uid://m5iqdm4p2qnq::::res://assets/sprites/platforms.png
+player.tscn::PackedScene::6774523687474758587::1770202018::0::1::::<><><>0<>0<><>::uid://bjc63xt7x3geg::::res://scripts/player.gd<>uid://bxfusood8uw31::::res://assets/sprites/Axolotl walking sprite.png
+::res://scripts/::1770202158
+coin.gd::GDScript::82165228613190656::1770202158::0::1::::<>Area2D<><>0<>0<><>::
+coin_2.tscn.gd::GDScript::673969833360242966::1770202158::0::1::::<>Area2D<><>0<>0<><>::
+kil_zone.gd::GDScript::84349563643089161::1770201795::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::3024182499822723638::1770201795::0::1::::<>CharacterBody2D<><>0<>0<><>::
