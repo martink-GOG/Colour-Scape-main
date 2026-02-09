@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b6wfi3aicwabp"]
 
-[ext_resource type="Script" uid="uid://juqgjq7gcjs5" path="res://scripts/coin_2.tscn.gd" id="1_wyrsg"]
+[ext_resource type="Script" uid="uid://juqgjq7gcjs5" path="res://scripts/pickup green.gd" id="1_wyrsg"]
 [ext_resource type="Texture2D" uid="uid://houuc6rh171i" path="res://assets/sprites/Colour dropper green pattern sprite.png" id="2_wyrsg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wyrsg"]
@@ -49,9 +49,10 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_ssuvv"]
 radius = 8.0
 
-[node name="coin 2" type="Area2D" unique_id=448672350]
-collision_layer = 2
-collision_mask = 2
+[node name="color switch green" type="Area2D" unique_id=448672350]
+z_index = 4
+collision_layer = 32768
+collision_mask = 32768
 script = ExtResource("1_wyrsg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1948572664]
