@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://b36vr5y0vp4ql"]
+
+[ext_resource type="Script" uid="uid://c7l6lvffcuuuh" path="res://scripts/pickup_red.gd" id="1_hb83m"]
+[ext_resource type="Texture2D" uid="uid://b7enhi2imlfh8" path="res://assets/sprites/Colour dropper red pattern animated.png" id="2_j7lpg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1822"]
+atlas = ExtResource("2_j7lpg")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d4k8p"]
+atlas = ExtResource("2_j7lpg")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stgcu"]
+atlas = ExtResource("2_j7lpg")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nmatv"]
+atlas = ExtResource("2_j7lpg")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ov5sh"]
+atlas = ExtResource("2_j7lpg")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hk8s2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1822")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d4k8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stgcu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nmatv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ov5sh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ssuvv"]
+radius = 8.0
+
+[node name="color switch red" type="Area2D" unique_id=448672350]
+z_index = 4
+collision_layer = 32768
+collision_mask = 32768
+script = ExtResource("1_hb83m")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=338955179]
+position = Vector2(-2.9802322e-08, 2.9802322e-08)
+scale = Vector2(0.34309894, 0.34309894)
+sprite_frames = SubResource("SpriteFrames_hk8s2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=777709908]
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_ssuvv")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

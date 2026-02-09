@@ -4,9 +4,9 @@ extends Area2D
 
 
 
+
 func _on_body_entered(body: Node2D):
 	print("+1 coin")
-	player.collision_mask = (1)
-	player.collision_layer = (1)
-	
- 
+	player.collision_mask = (2)
+	Globalvariables.colour= 1
+	player.set_collision_layer_value(2,16)

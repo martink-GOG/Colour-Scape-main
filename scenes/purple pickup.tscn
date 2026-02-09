@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://bhuq6llikt8p8"]
+
+[ext_resource type="Script" uid="uid://ddqsnq12kiil2" path="res://scripts/color_switch_purple.gd" id="1_seujm"]
+[ext_resource type="Texture2D" uid="uid://cghp0ct2dy7q0" path="res://assets/sprites/Colour dropper purple pattern sprite.png" id="2_16nsu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nsefo"]
+atlas = ExtResource("2_16nsu")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_du34e"]
+atlas = ExtResource("2_16nsu")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0jpur"]
+atlas = ExtResource("2_16nsu")
+region = Rect2(0, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ltvr0"]
+atlas = ExtResource("2_16nsu")
+region = Rect2(96, 96, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdush"]
+atlas = ExtResource("2_16nsu")
+region = Rect2(0, 192, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3a1tn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nsefo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_du34e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0jpur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ltvr0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdush")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ssuvv"]
+radius = 8.0
+
+[node name="color switch purple" type="Area2D" unique_id=448672350]
+z_index = 4
+collision_layer = 32768
+collision_mask = 32768
+script = ExtResource("1_seujm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=338955179]
+position = Vector2(-2.9802322e-08, 2.9802322e-08)
+scale = Vector2(0.34309894, 0.34309894)
+sprite_frames = SubResource("SpriteFrames_3a1tn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=777709908]
+position = Vector2(-1, 0)
+shape = SubResource("CircleShape2D_ssuvv")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
