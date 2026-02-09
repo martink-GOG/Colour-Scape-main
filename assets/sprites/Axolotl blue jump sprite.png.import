@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i4l3nyhpysdn"
-path="res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex"
+uid="uid://ei16awyaporo"
+path="res://.godot/imported/Axolotl blue jump sprite.png-ec25a2fea1b8ce8ea96577648f1f70a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/slime_green.png"
-dest_files=["res://.godot/imported/slime_green.png-f6349164bf3a0f5189bb927b97af9c58.ctex"]
+source_file="res://assets/sprites/Axolotl blue jump sprite.png"
+dest_files=["res://.godot/imported/Axolotl blue jump sprite.png-ec25a2fea1b8ce8ea96577648f1f70a7.ctex"]
 
 [params]
 

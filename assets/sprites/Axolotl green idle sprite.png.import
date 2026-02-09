@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vd3yf5xfmps1"
-path="res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex"
+uid="uid://1bu2jvbxnhvr"
+path="res://.godot/imported/Axolotl green idle sprite.png-f055d9e2968b3b64df2dab27edbc33ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/knight.png"
-dest_files=["res://.godot/imported/knight.png-7c67c83d34932624952797d9e971a644.ctex"]
+source_file="res://assets/sprites/Axolotl green idle sprite.png"
+dest_files=["res://.godot/imported/Axolotl green idle sprite.png-f055d9e2968b3b64df2dab27edbc33ea.ctex"]
 
 [params]
 

@@ -37,16 +37,43 @@ func _physics_process(delta: float) -> void:
 			if direction == 0:
 				animated_sprite.play("blue idle")
 			else:
-				animated_sprite.play("moving")
-		else: animated_sprite.play("jumping")
+				animated_sprite.play("blue walking")
+		else: animated_sprite.play("blue jumping")
 	if Globalvariables.colour ==2:
 		if is_on_floor():
 			if direction == 0:
 				animated_sprite.play("red idle")
 			else:
 				animated_sprite.play("red walking")
-		else: animated_sprite.play("jumping")
-		
+		else: animated_sprite.play("red jumping")
+	if Globalvariables.colour ==3:
+		if is_on_floor():
+			if direction == 0:
+				animated_sprite.play("green idle")
+			else:
+				animated_sprite.play("green walking")
+		else: animated_sprite.play("green jumping")
+	if Globalvariables.colour ==4:
+		if is_on_floor():
+			if direction == 0:
+				animated_sprite.play("purple idle")
+			else:
+				animated_sprite.play("purple walking")
+		else: animated_sprite.play("purple jumping")
+	if Globalvariables.colour ==5:
+		if is_on_floor():
+			if direction == 0:
+				animated_sprite.play("orange idle")
+			else:
+				animated_sprite.play("orange walking")
+		else: animated_sprite.play("orange jumping")
+	if Globalvariables.colour ==6:
+		if is_on_floor():
+			if direction == 0:
+				animated_sprite.play("yellow idle")
+			else:
+				animated_sprite.play("yellow walking")
+		else: animated_sprite.play("yellow jumping")
 	if direction:
 		velocity.x = direction * SPEED
 	else:

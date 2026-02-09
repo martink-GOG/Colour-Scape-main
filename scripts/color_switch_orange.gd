@@ -5,7 +5,13 @@ extends Area2D
 
 
 func _on_body_entered(body: Node2D):
-	print("switch yellow")
-	player.collision_mask = (5)
-	Globalvariables.colour = 2
+	print("switch orange")
+	player.set_collision_mask_value(5,true)
+	
+	player.set_collision_mask_value(1,false)
+	player.set_collision_mask_value(2,false)
+	player.set_collision_mask_value(3,false)
+	player.set_collision_mask_value(4,false)
+	player.set_collision_mask_value(6,false)
+	Globalvariables.colour = 5
 	player.set_collision_layer_value(5,16)
