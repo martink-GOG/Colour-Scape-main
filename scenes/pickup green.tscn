@@ -56,7 +56,7 @@ collision_mask = 32768
 script = ExtResource("1_wyrsg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1948572664]
-position = Vector2(0, 5.9604645e-08)
+position = Vector2(-1, 0.99999994)
 scale = Vector2(0.35478804, 0.35478804)
 sprite_frames = SubResource("SpriteFrames_ls27i")
 autoplay = "default"
