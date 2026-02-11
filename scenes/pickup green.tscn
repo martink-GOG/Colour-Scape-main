@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://juqgjq7gcjs5" path="res://scripts/pickup green.gd" id="1_wyrsg"]
 [ext_resource type="Texture2D" uid="uid://houuc6rh171i" path="res://assets/sprites/Colour dropper green pattern sprite.png" id="2_wyrsg"]
+[ext_resource type="AudioStream" uid="uid://bt7fhd6sjgcjj" path="res://assets/sounds/slime-splat-4-219250.mp3" id="3_n0ro5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wyrsg"]
 atlas = ExtResource("2_wyrsg")
@@ -49,6 +50,42 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_ssuvv"]
 radius = 8.0
 
+[sub_resource type="Animation" id="Animation_5ebgk"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_cnawa"]
+resource_name = "colour switch"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3c7h3"]
+_data = {
+&"RESET": SubResource("Animation_5ebgk"),
+&"colour switch": SubResource("Animation_cnawa")
+}
+
 [node name="color switch green" type="Area2D" unique_id=448672350]
 z_index = 4
 collision_layer = 32768
@@ -65,5 +102,12 @@ frame_progress = 0.24487112
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=777709908]
 position = Vector2(-1, 0)
 shape = SubResource("CircleShape2D_ssuvv")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=228565146]
+stream = ExtResource("3_n0ro5")
+bus = &"SFX"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1110968186]
+libraries/ = SubResource("AnimationLibrary_3c7h3")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

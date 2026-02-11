@@ -426,6 +426,16 @@ sources/4 = SubResource("TileSetAtlasSource_kvpfn")
 [node name="game controller" type="Node" parent="." unique_id=1538446323]
 script = ExtResource("1_trtic")
 
+[node name="ScoreLabel" type="Label" parent="game controller" unique_id=152704422]
+offset_left = 3265.0
+offset_top = -127.0
+offset_right = 3355.0
+offset_bottom = -96.0
+theme_override_font_sizes/font_size = 10
+text = "You collected 0 watermelons"
+horizontal_alignment = 1
+autowrap_mode = 2
+
 [node name="TileMap2" type="TileMap" parent="." unique_id=683018467]
 position = Vector2(10, -6)
 tile_set = SubResource("TileSet_vtaks")
@@ -438,6 +448,8 @@ position = Vector2(1291, 182)
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=1485823683]
 position = Vector2(0, -7)
 zoom = Vector2(4, 4)
+limit_left = -9999997
+limit_right = 10000003
 limit_bottom = 360
 
 [node name="kil zone" parent="." unique_id=841952754 instance=ExtResource("5_iywne")]
@@ -600,11 +612,56 @@ position = Vector2(3172, -52)
 [node name="star16" parent="." unique_id=1073420557 instance=ExtResource("8_0tnpc")]
 position = Vector2(3302, -52)
 
+[node name="color hexa win" parent="." unique_id=2138089964 instance=ExtResource("14_trtic")]
+position = Vector2(3231, -69)
+
 [node name="Timer" parent="." unique_id=1833242005 instance=ExtResource("16_ca42v")]
 offset_left = 3237.0
 offset_top = -106.0
 offset_right = 3237.0
 offset_bottom = -106.0
 
-[node name="color hexa win" parent="." unique_id=815509031 instance=ExtResource("14_trtic")]
-position = Vector2(3231, -69)
+[node name="Labels" type="Node" parent="." unique_id=506873143]
+
+[node name="InfoLabel" type="Label" parent="Labels" unique_id=1035094389]
+offset_left = 1649.0
+offset_top = 228.0
+offset_right = 1708.0
+offset_bottom = 277.0
+theme_override_font_sizes/font_size = 10
+text = "Use space or W to jump"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="IntroductionLabel" type="Label" parent="Labels" unique_id=1721124976]
+offset_left = 1275.0
+offset_top = 118.0
+offset_right = 1389.0
+offset_bottom = 149.0
+theme_override_font_sizes/font_size = 10
+text = "Use arrow keys or WASD to move"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="EndLabel" type="Label" parent="Labels" unique_id=1002890556]
+offset_left = 3102.0
+offset_top = -126.0
+offset_right = 3258.0
+offset_bottom = -106.0
+theme_override_font_sizes/font_size = 10
+text = "Congratulations you made it!"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="EndLabel2" type="Label" parent="Labels" unique_id=1619462524]
+offset_left = 3105.0
+offset_top = -112.0
+offset_right = 3261.0
+offset_bottom = -98.0
+theme_override_font_sizes/font_size = 10
+text = "To reset walk in to the stars."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Area2D11" parent="." unique_id=120196678 instance=ExtResource("13_kvuet")]
+position = Vector2(2551, -279)

@@ -1,6 +1,7 @@
 extends Area2D
 
 @onready var player: CharacterBody2D = $"../player"
+@onready var sfx: AnimationPlayer = $AnimationPlayer
 
 
 
@@ -14,3 +15,4 @@ func _on_body_entered(body: Node2D):
 	player.set_collision_mask_value(6,false)
 	Globalvariables.colour = 2
 	player.set_collision_layer_value(1,16)
+	sfx.play("colour switch")

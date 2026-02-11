@@ -1,18 +1,26 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770807460
+::res://::1770815907
+export_presets.cfg::TextFile::-1::1770810190::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::775839465123520370::1770798419::1770798419::1::::<><><>0<>0<>25c27a515f126517bf50f83d15c93a4e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+default_bus_layout.tres::AudioBusLayout::5138660780546527782::1770815907::0::1::::<><><>0<>0<><>::
 ::res://assets/::1770299982
 ::res://assets/fonts/::1770798419
 PixelOperator8-Bold.ttf::FontFile::3823902773191173040::1770798419::1770798419::1::::<><><>0<>0<>cf2b68d663d69a98b0340bc372fe28c2<>res://.godot/imported/PixelOperator8-Bold.ttf-74faf550739674ad3170f08e646e0614.fontdata::
 PixelOperator8.ttf::FontFile::3163829212677600792::1770798419::1770798419::1::::<><><>0<>0<>43b199fde968476518bb209530376386<>res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata::
-::res://assets/music/::1770798419
-time_for_adventure.mp3::AudioStreamMP3::8581271183448859580::1770798419::1770798419::1::::<><><>0<>0<>47067f7e5d5d25e224ceb599113a1fcf<>res://.godot/imported/time_for_adventure.mp3-b8a49ae1cfc83b211be9d82e6e985655.mp3str::
-::res://assets/sounds/::1770798419
+::res://assets/music/::1770811332
+8-bit-chill-twincraft-loop-334935.mp3::AudioStreamMP3::4208846744279178933::1770811236::1770811317::1::::<><><>0<>0<>0c5844ca770781eb1bd9b6a43a2ac678<>res://.godot/imported/8-bit-chill-twincraft-loop-334935.mp3-097f52774e6585432b56443aa5eeae64.mp3str::
+xtremefreddy-game-music-loop-6-144641.mp3::AudioStreamMP3::2761252680128901092::1770811236::1770811332::1::::<><><>0<>0<>c47a386782968ac1851fd728cb4e7957<>res://.godot/imported/xtremefreddy-game-music-loop-6-144641.mp3-00d113c03b99403f53dbdb9ed926aa9d.mp3str::
+::res://assets/sounds/::1770816503
+8-bit-explosion-11-340459.mp3::AudioStreamMP3::8422943984897112962::1770812651::1770812651::1::::<><><>0<>0<>b9e7a37a75f26980ba520dfa9b0b8ff6<>res://.godot/imported/8-bit-explosion-11-340459.mp3-787eefe9a524198659d63d331c0b5747.mp3str::
 coin.wav::AudioStreamWAV::2497079703074792863::1770798419::1770798419::1::::<><><>0<>0<>245bedcc158904f18f77d46fae8b36a0<>res://.godot/imported/coin.wav-9081ee1c6d81d9c34d08bc916297b892.sample::
 explosion.wav::AudioStreamWAV::3537780761337639113::1770798419::1770798419::1::::<><><>0<>0<>d26ce0414d0a67b30be081bcfead1069<>res://.godot/imported/explosion.wav-52e05e8d4b6600106c8dde082c90f915.sample::
+freesound_community-eating-sound-effect-36186.mp3::AudioStreamMP3::4748154075752016033::1770815802::1770815802::1::::<><><>0<>0<>020a836208c8089aedb69c0226afc96c<>res://.godot/imported/freesound_community-eating-sound-effect-36186.mp3-4b8db25295cdfcdd10ff344987cf4f94.mp3str::
+freesound_community-wilhelm-1-86895.mp3::AudioStreamMP3::6442232693818937737::1770816503::1770816504::1::::<><><>0<>0<>426b5069f063718301594674f1a39a08<>res://.godot/imported/freesound_community-wilhelm-1-86895.mp3-bec1f635299a9e81b6a33da7d7a2d30e.mp3str::
 hurt.wav::AudioStreamWAV::1891700023697957655::1770798419::1770798419::1::::<><><>0<>0<>80704db548c793e0d93d03b60524e874<>res://.godot/imported/hurt.wav-792baeb99505afd6a1496d4e4330b023.sample::
+info-474106.mp3::AudioStreamMP3::95584188269142166::1770816018::1770816019::1::::<><><>0<>0<>b8d4006f9f801607c9fa1f8c57941fb1<>res://.godot/imported/info-474106.mp3-55d365e68841583f5d9dd72af26e212f.mp3str::
 jump.wav::AudioStreamWAV::6843395152394795516::1770798419::1770798419::1::::<><><>0<>0<>aadff3e378016324a7a17b9ba3e271ed<>res://.godot/imported/jump.wav-395b727cde98999423d5c020c9c3492f.sample::
 power_up.wav::AudioStreamWAV::3872452196822495803::1770798419::1770798419::1::::<><><>0<>0<>8873978ceea2ee031211c5e129cf6813<>res://.godot/imported/power_up.wav-8349ffe570559470036ebff4b80f7fc0.sample::
+slime-splat-4-219250.mp3::AudioStreamMP3::3786385092755886211::1770812651::1770812651::1::::<><><>0<>0<>0583924421641310b3b871ef9748ba6e<>res://.godot/imported/slime-splat-4-219250.mp3-f1ba9f639e08d5f609a6d3131700ac85.mp3str::
 tap.wav::AudioStreamWAV::3129137049882733579::1770798419::1770798419::1::::<><><>0<>0<>4e68539fcb1e59a21fb67f0367e5f7eb<>res://.godot/imported/tap.wav-78d4c5a48b21a853d89bec74f20510e7.sample::
 ::res://assets/sprites/::1770798456
 Axolotl blue idle sprite.png::CompressedTexture2D::8295721954286990065::1770798419::1770798419::1::::<><><>0<>0<>dd2a05737907cb7ceade39e346238b5d<>res://.godot/imported/Axolotl blue idle sprite.png-9edb2d3b9eb2347ea4d2caec438f87f4.ctex::
@@ -55,33 +63,35 @@ Tile set with patterns 2-1.png.png::CompressedTexture2D::6251286675235858627::17
 watermeloen.png::CompressedTexture2D::523201891381407698::1770798410::1770798456::1::::<><><>0<>0<>3e026a6e570a2a6d8597c53f73d3502d<>res://.godot/imported/watermeloen.png-2375c16f7970091d10f7651575d0fd97.ctex::
 white tile.png::CompressedTexture2D::7358277066751107312::1770798421::1770798421::1::::<><><>0<>0<>4ac9361fcf76d98b8c765f82cf814678<>res://.godot/imported/white tile.png-d5d29891cd839237b5e7faeae83cd3cd.ctex::
 world_tileset.png::CompressedTexture2D::5797326937431754263::1770798421::1770798421::1::::<><><>0<>0<>f76c34669d41c76e476187c849c452d5<>res://.godot/imported/world_tileset.png-61a32465f33c3d9d3bfecb75b6485009.ctex::
-::res://scenes/::1770807416
-color_hexa_win.tscn::PackedScene::8030830933029488560::1770806705::0::1::::<><><>0<>0<><>::uid://dpk34u4lglqk5::::res://scripts/color_hexa_win.gd<>uid://fmocqm0fqqgy::::res://assets/sprites/Colour hexagon sprite-1.png.png
+::res://scenes/::1770816412
+color_hexa_win.tscn::PackedScene::8030830933029488560::1770816399::0::1::::<><><>0<>0<><>::uid://dpk34u4lglqk5::::res://scripts/color_hexa_win.gd<>uid://fmocqm0fqqgy::::res://assets/sprites/Colour hexagon sprite-1.png.png<>uid://bmki02lhwgfu::::res://assets/sounds/info-474106.mp3
 demo.tscn::PackedScene::-1::1770805680::0::1::::<><><>0<>0<><>::
-game.tscn::PackedScene::1876538877399173923::1770807416::0::1::::<><><>0<>0<><>::uid://ck24atnvx562q::::res://scripts/globalvariables.gd<>uid://c3rvoefn0juyd::::res://scenes/player.tscn<>uid://civwtnq5q2hb::::res://scenes/pickup blue.tscn<>uid://dh011uhpfmhfo::::res://scenes/kil_zone.tscn<>uid://b6wfi3aicwabp::::res://scenes/pickup green.tscn<>uid://dc3n0o7q5t25q::::res://assets/sprites/white tile.png<>uid://cuylyltq0d2hv::::res://scenes/Star.tscn<>uid://cvcf1pvbaxlhr::::res://assets/sprites/Tile set with patterns 2-1.png.png<>uid://b0qucdmecdole::::res://assets/sprites/Tile patterns-1.png.png<>uid://tnrxvgrwbqbq::::res://scenes/pickup yellow.tscn<>uid://b36vr5y0vp4ql::::res://scenes/pickup red.tscn<>uid://bydtv36g5o73q::::res://scenes/pickup orange.tscn<>uid://bhuq6llikt8p8::::res://scenes/pickup purple.tscn<>uid://ccrnsktdax4y1::::res://scenes/watermeloen.tscn<>uid://dmogu2v4j7d6w::::res://scenes/color_hexa_win.tscn<>uid://cwl2715eh0xao::::res://scenes/demo.tscn
+game.tscn::PackedScene::1876538877399173923::1770816412::0::1::::<><><>0<>0<><>::uid://ck24atnvx562q::::res://scripts/globalvariables.gd<>uid://c3rvoefn0juyd::::res://scenes/player.tscn<>uid://civwtnq5q2hb::::res://scenes/pickup blue.tscn<>uid://dh011uhpfmhfo::::res://scenes/kil_zone.tscn<>uid://b6wfi3aicwabp::::res://scenes/pickup green.tscn<>uid://dc3n0o7q5t25q::::res://assets/sprites/white tile.png<>uid://cuylyltq0d2hv::::res://scenes/Star.tscn<>uid://cvcf1pvbaxlhr::::res://assets/sprites/Tile set with patterns 2-1.png.png<>uid://b0qucdmecdole::::res://assets/sprites/Tile patterns-1.png.png<>uid://tnrxvgrwbqbq::::res://scenes/pickup yellow.tscn<>uid://b36vr5y0vp4ql::::res://scenes/pickup red.tscn<>uid://bydtv36g5o73q::::res://scenes/pickup orange.tscn<>uid://bhuq6llikt8p8::::res://scenes/pickup purple.tscn<>uid://ccrnsktdax4y1::::res://scenes/watermeloen.tscn<>uid://dmogu2v4j7d6w::::res://scenes/color_hexa_win.tscn<>res://scenes/demo.tscn
 kil_zone.tscn::PackedScene::7703819534819806372::1770798421::0::1::::<><><>0<>0<><>::
-pickup blue.tscn::PackedScene::158208072416373755::1770798421::0::1::::<><><>0<>0<><>::uid://bf2iqg57rc21::::res://scripts/pickup_blue.gd<>uid://d2eky7yvntafu::::res://assets/sprites/Colour dropper blue pattern sprite.png
-pickup green.tscn::PackedScene::4608010489397316353::1770798421::0::1::::<><><>0<>0<><>::uid://juqgjq7gcjs5::::res://scripts/pickup green.gd<>uid://houuc6rh171i::::res://assets/sprites/Colour dropper green pattern sprite.png
-pickup orange.tscn::PackedScene::4078338707658655000::1770798421::0::1::::<><><>0<>0<><>::uid://bhikmwfpomfuk::::res://scripts/color_switch_orange.gd<>uid://cup1in2c6yxmi::::res://assets/sprites/Colour dropper orange pattern sprite.png
-pickup purple.tscn::PackedScene::2920057570863170843::1770798421::0::1::::<><><>0<>0<><>::uid://ddqsnq12kiil2::::res://scripts/color_switch_purple.gd<>uid://cghp0ct2dy7q0::::res://assets/sprites/Colour dropper purple pattern sprite.png
-pickup red.tscn::PackedScene::4417011045218722439::1770798421::0::1::::<><><>0<>0<><>::uid://c7l6lvffcuuuh::::res://scripts/pickup_red.gd<>uid://b7enhi2imlfh8::::res://assets/sprites/Colour dropper red pattern animated.png
-pickup yellow.tscn::PackedScene::1361499315123273850::1770798421::0::1::::<><><>0<>0<><>::uid://dx6h1cbljhtl4::::res://scripts/color_switch_yellow.gd<>uid://deig71l8so0nq::::res://assets/sprites/Colour dropper yellow pattern sprite.png
+pickup blue.tscn::PackedScene::158208072416373755::1770815925::0::1::::<><><>0<>0<><>::uid://bf2iqg57rc21::::res://scripts/pickup_blue.gd<>uid://d2eky7yvntafu::::res://assets/sprites/Colour dropper blue pattern sprite.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
+pickup green.tscn::PackedScene::4608010489397316353::1770814704::0::1::::<><><>0<>0<><>::uid://juqgjq7gcjs5::::res://scripts/pickup green.gd<>uid://houuc6rh171i::::res://assets/sprites/Colour dropper green pattern sprite.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
+pickup orange.tscn::PackedScene::4078338707658655000::1770815089::0::1::::<><><>0<>0<><>::uid://bhikmwfpomfuk::::res://scripts/color_switch_orange.gd<>uid://cup1in2c6yxmi::::res://assets/sprites/Colour dropper orange pattern sprite.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
+pickup purple.tscn::PackedScene::2920057570863170843::1770815091::0::1::::<><><>0<>0<><>::uid://ddqsnq12kiil2::::res://scripts/color_switch_purple.gd<>uid://cghp0ct2dy7q0::::res://assets/sprites/Colour dropper purple pattern sprite.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
+pickup red.tscn::PackedScene::4417011045218722439::1770815940::0::1::::<><><>0<>0<><>::uid://c7l6lvffcuuuh::::res://scripts/pickup_red.gd<>uid://b7enhi2imlfh8::::res://assets/sprites/Colour dropper red pattern animated.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
+pickup yellow.tscn::PackedScene::1361499315123273850::1770814338::0::1::::<><><>0<>0<><>::uid://dx6h1cbljhtl4::::res://scripts/color_switch_yellow.gd<>uid://deig71l8so0nq::::res://assets/sprites/Colour dropper yellow pattern sprite.png<>uid://bt7fhd6sjgcjj::::res://assets/sounds/slime-splat-4-219250.mp3
 platform.tscn::PackedScene::4796808747829090127::1770798421::0::1::::<><><>0<>0<><>::uid://m5iqdm4p2qnq::::res://assets/sprites/platforms.png
 player.tscn::PackedScene::6774523687474758587::1770798421::0::1::::<><><>0<>0<><>::uid://bjc63xt7x3geg::::res://scripts/player.gd<>uid://c5r3i451xtpup::::res://assets/sprites/Axolotl idle sprite.png<>uid://bxfusood8uw31::::res://assets/sprites/Axolotl walking sprite.png<>uid://dqgrlf284f7er::::res://assets/sprites/Axolotl blue idle sprite.png<>uid://cygmucm2r2b0b::::res://assets/sprites/Axolotl jump sprite.png<>uid://dr4qtvgixt7cu::::res://assets/sprites/Axolotl blue walking sprite 1.png<>uid://ei16awyaporo::::res://assets/sprites/Axolotl blue jump sprite.png<>uid://1bu2jvbxnhvr::::res://assets/sprites/Axolotl green idle sprite.png<>uid://p42iff7tfuew::::res://assets/sprites/Axolotl green jump sprite.png<>uid://cwr3a8lpun8em::::res://assets/sprites/Axolotl red idle sprite.png<>uid://chhv56mvwb7nf::::res://assets/sprites/Axolotl green walking sprite.png<>uid://c1urx1lsqlpk0::::res://assets/sprites/Axolotl red walking sprite.png<>uid://b3jb05q3krqnn::::res://assets/sprites/Axolotl red jump sprite.png<>uid://m5jnr6xj42lc::::res://assets/sprites/Axolotl purple idle sprite.png<>uid://bavv3s0q004pd::::res://assets/sprites/Axolotl orange idle sprite.png<>uid://bky1r4s5l2wu8::::res://assets/sprites/Axolotl orange jump sprite.png<>uid://ctpey546vuey1::::res://assets/sprites/Axolotl purple jump sprite.png<>uid://bgoj0w0hcr3dv::::res://assets/sprites/Axolotl orange walking sprite.png<>uid://b452cpwfgxnet::::res://assets/sprites/Axolotl purple walking sprite.png<>uid://c1yoaa6soyddo::::res://assets/sprites/Axolotl yellow idle sprite.png<>uid://bgom61y8fpj53::::res://assets/sprites/Axolotl yellow jump sprite.png<>uid://c8sck8f01nfos::::res://assets/sprites/Axolotl yellow walking sprite.png
-Star.tscn::PackedScene::6226874660087093079::1770807189::0::1::::<><><>0<>0<><>::uid://bivyery5e2wvs::::res://assets/sprites/pixilart-drawing (1).png<>uid://dh011uhpfmhfo::::res://scenes/kil_zone.tscn<>uid://cvmllla46m5qt::::res://scripts/kil_zone_star.gd
-watermeloen.tscn::PackedScene::4949135496399565206::1770803312::0::1::::<><><>0<>0<><>::uid://cje3vk71xdqyt::::res://scripts/watermeloen.gd<>uid://hppb84sxk32m::::res://assets/sprites/watermeloen.png
-::res://scripts/::1770807305
+game_controller.tscn::PackedScene::1971597624806198162::1770811109::0::1::::<><><>0<>0<><>::uid://ck24atnvx562q::::res://scripts/globalvariables.gd
+music.tscn::PackedScene::4334513536046010443::1770811572::0::1::::<><><>0<>0<><>::uid://b072ddfasu4b6::::res://assets/music/8-bit-chill-twincraft-loop-334935.mp3
+Star.tscn::PackedScene::6226874660087093079::1770813569::0::1::::<><><>0<>0<><>::uid://bivyery5e2wvs::::res://assets/sprites/pixilart-drawing (1).png<>uid://dh011uhpfmhfo::::res://scenes/kil_zone.tscn<>uid://cvmllla46m5qt::::res://scripts/kil_zone_star.gd<>uid://dsaewlj2hbkjq::::res://assets/sounds/8-bit-explosion-11-340459.mp3
+watermeloen.tscn::PackedScene::4949135496399565206::1770815907::0::1::::<><><>0<>0<><>::uid://cje3vk71xdqyt::::res://scripts/watermeloen.gd<>uid://hppb84sxk32m::::res://assets/sprites/watermeloen.png<>uid://b8wbny6olwanh::::res://assets/sounds/freesound_community-eating-sound-effect-36186.mp3
+::res://scripts/::1770816399
 color_hexa_win-kill.tscn.gd::GDScript::7334796622369515378::1770804584::0::1::::<>Area2D<><>0<>0<><>::
-color_hexa_win.gd::GDScript::8234491442785679498::1770806332::0::1::::<>Area2D<><>0<>0<><>::
-color_switch_orange.gd::GDScript::2894887374584772774::1770798421::0::1::::<>Area2D<><>0<>0<><>::
-color_switch_purple.gd::GDScript::7403975629027877745::1770798421::0::1::::<>Area2D<><>0<>0<><>::
-color_switch_yellow.gd::GDScript::8838072721824412487::1770798421::0::1::::<>Area2D<><>0<>0<><>::
+color_hexa_win.gd::GDScript::8234491442785679498::1770816399::0::1::::<>Area2D<><>0<>0<><>::
+color_switch_orange.gd::GDScript::2894887374584772774::1770815062::0::1::::<>Area2D<><>0<>0<><>::
+color_switch_purple.gd::GDScript::7403975629027877745::1770815062::0::1::::<>Area2D<><>0<>0<><>::
+color_switch_yellow.gd::GDScript::8838072721824412487::1770814076::0::1::::<>Area2D<><>0<>0<><>::
 demo.gd::GDScript::6460077363213523182::1770806587::0::1::::<>Control<><>0<>0<><>::
-globalvariables.gd::GDScript::5532229814928573026::1770806201::0::1::::<>Node<><>0<>0<><>::
-kil_zone_star.gd::GDScript::6272267726603396635::1770807196::0::1::::<>Area2D<><>0<>0<><>::
-pickup green.gd::GDScript::673969833360242966::1770798421::0::1::::<>Area2D<><>0<>0<><>::
-pickup_blue.gd::GDScript::82165228613190656::1770798421::0::1::::<>Area2D<><>0<>0<><>::
-pickup_red.gd::GDScript::7043495500551644959::1770798421::0::1::::<>Area2D<><>0<>0<><>::
+globalvariables.gd::GDScript::5532229814928573026::1770815211::0::1::::<>Node<><>0<>0<><>::
+kil_zone_star.gd::GDScript::6272267726603396635::1770813233::0::1::::<>Area2D<><>0<>0<><>::
+pickup green.gd::GDScript::673969833360242966::1770814704::0::1::::<>Area2D<><>0<>0<><>::
+pickup_blue.gd::GDScript::82165228613190656::1770814356::0::1::::<>Area2D<><>0<>0<><>::
+pickup_red.gd::GDScript::7043495500551644959::1770814827::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript::3024182499822723638::1770798422::0::1::::<>CharacterBody2D<><>0<>0<><>::
 star kill zone.gd::GDScript::3895548743915620762::1770804753::0::1::::<>Area2D<><>0<>0<><>::
-watermeloen.gd::GDScript::5414536624493633227::1770802240::0::1::::<>Area2D<><>0<>0<><>::
+watermeloen.gd::GDScript::5414536624493633227::1770812985::0::1::::<>Area2D<><>0<>0<><>::

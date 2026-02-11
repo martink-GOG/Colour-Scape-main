@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b20w2mgj5fk48"]
+
+[ext_resource type="AudioStream" uid="uid://b072ddfasu4b6" path="res://assets/music/8-bit-chill-twincraft-loop-334935.mp3" id="1_05ggv"]
+
+[node name="music" type="AudioStreamPlayer2D" unique_id=1029905683]
+stream = ExtResource("1_05ggv")
+autoplay = true
+bus = &"music"
