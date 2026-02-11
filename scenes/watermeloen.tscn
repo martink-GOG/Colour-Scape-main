@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://ccrnsktdax4y1"]
+
+[ext_resource type="Script" uid="uid://cje3vk71xdqyt" path="res://scripts/watermeloen.gd" id="1_tonpa"]
+[ext_resource type="Texture2D" uid="uid://hppb84sxk32m" path="res://assets/sprites/watermeloen.png" id="1_xduth"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gu4ao"]
+radius = 10.198039
+
+[node name="Area2D" type="Area2D" unique_id=1502130298]
+collision_layer = 32768
+collision_mask = 32768
+script = ExtResource("1_tonpa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1982167393]
+position = Vector2(0, 2)
+scale = Vector2(0.39, 0.39)
+texture = ExtResource("1_xduth")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2120719394]
+position = Vector2(0, 3)
+shape = SubResource("CircleShape2D_gu4ao")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

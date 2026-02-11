@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cwl2715eh0xao"]
+
+[ext_resource type="Script" uid="uid://bc4forqgaqg34" path="res://scripts/demo.gd" id="1_tqfh0"]
+
+[node name="Timer" type="Control" unique_id=1833242005]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tqfh0")
+
+[node name="Label" type="Label" parent="." unique_id=1411475462]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_shadow_color = Color(0.89411765, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+
+[node name="Timer" type="Timer" parent="." unique_id=788085527]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
